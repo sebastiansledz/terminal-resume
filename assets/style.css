@@ -1,0 +1,67 @@
+.terminal .terminal-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.terminal-card {
+    margin-bottom:25px;
+}
+
+.terminal .terminal-card-container .terminal-card:first-child {
+    margin-right: 25px;
+}
+
+.terminal .terminal-card .btn.btn-ghost {
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: var(--global-line-height);
+}
+
+.terminal .terminal-prompt, .terminal .terminal-prompt h1 {
+    font-size: calc(var(--global-font-size)*1.2);
+}
+
+.progress-bar.progress-bar-show-percent {
+    margin-bottom: 34px;
+}
+
+.subheader {
+    margin-bottom:38px;
+}
+
+.pull-right {
+    float: right;
+}
+
+@media only screen and (max-width: 30em) {
+    .progress-bar.progress-bar-show-percent {
+    margin-top:38px;
+    }
+   }
+   
+   @media only screen and (min-width: 30em) {
+    .progress-bar.progress-bar-show-percent {
+    margin-top:0;
+    }
+   }
+
+@media only screen and (max-width: 30em) {
+    .terminal .terminal-card-container, .flex {
+    flex-direction: column;
+    align-items: flex-start;
+   }
+}
+
+@media only screen and (max-width: 30em) {
+    .terminal-card {
+        width: 100%;
+   }
+}
