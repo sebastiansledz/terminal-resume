@@ -1,3 +1,5 @@
 # Resume website
 
-Made with Terminal CSS framework - a great and lightweight framework for terminal style lovers.
+Simple, colofrul, fun.
+
+This website is not using JavaScript nor any other magic. Just HTML and CSS.
